@@ -1,0 +1,30 @@
+{
+	"data" : [
+		{
+			"id" : "1",
+			"src" : "../img/fenye/1.jpg",
+			"name" : "四分男休闲套装/时澜",
+			"price" :"360"
+		},
+		{
+			"id" : "2",
+			"src" : "../img/fenye/2.jpg",
+			"name" : "16mm深棕色",
+			"price" :"75"
+		},
+		{
+			"id" : "3",
+			"src" : "../img/fenye/3.jpg",
+			"name" : "3分娃娃A面妆",
+			"price" :"420"
+		},
+		{
+			"id" : "4",
+			"src" : "../img/fenye/4.jpg",
+			"name" : "3分娃娃A身体妆",
+			"price" :"150"
+		}
+		
+		
+	]
+}

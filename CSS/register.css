@@ -1,0 +1,160 @@
+.banner {
+	width: 100%;
+	height: 180px;
+	background: url(../img/BBBGG.jpg) repeat;
+}
+
+.banner .bannerCen {
+	width: 966px;
+	height: 166px;
+	/* background: blue; */
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner .bannerCen img {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -654px;
+	/* width: 100%; */
+}
+
+/* form */
+.form_box {
+	width: 362px;
+	height: 406px;
+	border: 1px solid gray;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 10px;
+	background: #fcfaf4;
+}
+
+.form_box .mfzc {
+	width: 362px;
+	height: 45px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	line-height: 45px;
+}
+
+.form_box .mfzc span {
+	font-size: 14px;
+}
+
+.form_box .msqdl {
+	width: 325px;
+	height: 51px;
+	padding-left: 37px;
+}
+
+.form_box .msqdl span {
+	font-size: 12px;
+	line-height: 51px;
+}
+
+.form_box .msqdl span a {
+	color: orange;
+	margin-left: 12px;
+}
+
+.form_box .msqdl span a:hover {
+	text-decoration: underline;
+}
+
+.form_box .gzxx {
+	width: 325px;
+	height: 206px;
+	/* 	background: skyblue; */
+	padding-left: 37px;
+}
+
+.form_box .gzxx input {
+	display: block;
+	width: 287px;
+	height: 26px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.form_box .gzxx label {
+	font-size: 12px;
+}
+
+.yzmBox {
+	width: 325px;
+	height: 52px;
+	/* background: skyblue; */
+	padding-left: 37px;
+}
+
+.yzmBox .yzmBox_left {
+	width: 101px;
+	height: 52px;
+	float: left;
+/* 	background: red; */
+}
+
+.yzmBox .yzmBox_left input {
+	width: 93px;
+	border: 1px solid gray;
+	height: 26px;
+	border-radius: 5px;
+}
+
+.yzmBox .yzmBox_left label {
+	font-size: 12px;
+}
+
+.yzmBox .sjyzmBox {
+	
+	width: 77px;
+	height: 32px;
+	/* background: gray; */
+	float: left;
+	padding-top: 20px;
+}
+.yzmBox .sjyzmBox  span{
+	width: 67px ;
+	height: 23px;
+	display: block;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 12px;
+	line-height: 23px;
+}
+.yzmBox .bqc{
+	width: 97px;
+	height: 52px;
+	/* background: olivedrab; */
+	float: left;
+	line-height: 60px;
+}
+.yzmBox .bqc a{
+	font-size: 12px;
+	color: orange;
+}
+.yzmBox .bqc a:hover{
+	text-decoration: underline;
+}
+.zcBnt{
+	width:226px;
+	height:37px;
+	padding-left: 136px;
+	/* background: red; */
+	padding-top: 14px;
+}
+.zcBnt a{
+	display: block;
+	width: 86px;
+	height: 28px;
+	background: orange;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 28px;
+}
+.zcBnt a:hover{
+	color: orangered;
+}

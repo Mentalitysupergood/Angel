@@ -1,0 +1,715 @@
+/* 顶部 */
+
+.topBox {
+    width: 100%;
+    height: 32px;
+    background: #daddd2;
+}
+
+.topBox .topCen {
+    width: 966px;
+    height: 32px;
+    /* background: orange; */
+    margin: 0 auto;
+}
+
+.topBox .topCen .topCen_left {
+    width: 104px;
+    height: 2rem;
+    /* background: yellowgreen; */
+    float: left;
+}
+
+.topBox .topCen .topCen_left span {
+    font-size: 12px;
+    line-height: 32px;
+    color: #6a726c;
+}
+
+.topBox .topCen .topCen_right {
+    float: right;
+    width: 400px;
+    height: 2rem;
+    /* background: yellowgreen; */
+    line-height: 2rem;
+}
+
+.topBox .topCen .topCen_right .txt {
+    width: 190px;
+}
+
+.topBox .topCen .topCen_right .spa1 {
+    font-size: 12px;
+    color: #6a726c;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.topBox .topCen .topCen_right .spa2 {
+    font-size: 12px;
+    margin-left: 14px;
+    color: #6a726c;
+}
+
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 166px;
+    background: url(../img/BBBGG.jpg) repeat;
+}
+
+.banner .bannerCen {
+    width: 966px;
+    height: 166px;
+    /* background: blue; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .bannerCen img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -654px;
+}
+
+
+/* picture 中间大图*/
+
+.bigPicture {
+    width: 966px;
+    height: 380px;
+    /* background: red; */
+    margin: 0 auto;
+}
+
+.bigPicture img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ∙ CATEGORY ∙ */
+
+.cateGory {
+    width: 966px;
+    height: 582px;
+    /* background: orange; */
+    margin: 0 auto;
+}
+
+.cateGory .cateGory_left {
+    width: 161px;
+    height: 574px;
+    background: skyblue;
+    float: left;
+}
+
+.cateGory .cateGory_left .cateGory_left_top {
+    width: 161px;
+    height: 37px;
+    background: #bcafa7;
+    text-align: center;
+    line-height: 37px;
+}
+
+.cateGory .cateGory_left .cateGory_left_top a {
+    font-size: 14px;
+    color: #65523b;
+}
+
+.cateGory .cateGory_left .cateGory_left_bottom {
+    width: 161px;
+    height: 537px;
+    background: white;
+    border-left: 10px solid #bcafa7;
+    border-right: 10px solid #bcafa7;
+    border-bottom: 16px solid #bcafa7;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.cateGory .cateGory_left .cateGory_left_bottom li {
+    display: block;
+    width: 115px;
+    height: 31px;
+    border-bottom: 1px solid #dadedd;
+    padding-top: 4px;
+}
+
+.cateGory .cateGory_left .cateGory_left_bottom li a {
+    font-size: 14px;
+    color: #574024;
+}
+
+.cateGory .cateGory_left .cateGory_left_bottom li a:hover {
+    color: orange
+}
+
+
+/* GateGory 右边部分 */
+
+.cateGory .cateGory_right {
+    width: 805px;
+    height: 574px;
+    /* background: #333333; */
+    float: right;
+    padding-left: 13px;
+}
+
+
+/* <!-- 轮播图 slideshow --> */
+
+.cateGoryTopBox {
+    width: 792px;
+    height: 377px;
+    /* background: red; */
+}
+
+.slideshowBox {
+    width: 788px;
+    height: 377px;
+    background: white;
+    float: left;
+    padding: 8px 0 0 8px;
+}
+
+.slideshowBox .slideShow {
+    width: 770px;
+    height: 360px;
+    background: skyblue;
+}
+
+.swiper-pagination span {
+    /* 	display: block; */
+    /* width: 20px;
+	height: 20px; */
+}
+
+.cateGoryBotBox {
+    width: 792px;
+    height: 197px;
+    /* background: blueviolet; */
+    padding-top: 20px;
+}
+
+.cateGoryBotBox .weChat {
+    padding: 4px 0 0 4px;
+    width: 257px;
+    height: 146px;
+    float: left;
+    background: white;
+    margin-right: 6px;
+}
+
+.cateGoryBotBox .weiBo {
+    padding: 4px 0 0 4px;
+    width: 257px;
+    height: 146px;
+    float: left;
+    background: white;
+    margin-right: 6px;
+}
+
+.cateGoryBotBox .taoBao {
+    padding: 4px 0 0 4px;
+    width: 257px;
+    height: 146px;
+    float: left;
+    background: white;
+}
+
+
+/* 新闻 */
+
+.newBox {
+    width: 966px;
+    height: 275px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.newBox .newBanner {
+    widows: 966px;
+    height: 38px;
+    /* background: #574024; */
+}
+
+.newBox .newBanner img {
+    width: 100%;
+}
+
+.newBox .bottBox {
+    width: 966px;
+    height: 237px;
+    /* background: red; */
+}
+
+.newBox .bottBox .bottBoxNews {
+    width: 368px;
+    height: 237px;
+    /* background: gold; */
+    float: left;
+    padding-left: 18px;
+}
+
+.newBox .bottBox .bottBoxNews a {
+    display: block;
+    width: 336px;
+    height: 30px;
+    background: #f2f2f2;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #9c4c12;
+    border: 1px solid darkgray;
+    margin-top: 10px;
+}
+
+.newBox .bottBox .bottBoxNews a:hover {
+    background: #fcedce;
+}
+
+.newBox .bottBox .bottBoxNews p {
+    color: #6a726c;
+}
+
+.newBox .bottBox .bottBoxUpData {
+    width: 368px;
+    padding-left: 18px;
+    height: 237px;
+    /* background: blueviolet; */
+    float: left;
+}
+
+.newBox .bottBox .bottBoxUpData p {
+    color: #6a726c;
+}
+
+.newBox .bottBox .bottBoxUpData a {
+    display: block;
+    width: 336px;
+    height: 30px;
+    background: #f2f2f2;
+    line-height: 30px;
+    padding-left: 15px;
+    border: 1px solid darkgray;
+    margin-top: 10px;
+    color: #9c4c12;
+}
+
+.newBox .bottBox .bottBoxUpData a:hover {
+    background: #fcedce;
+}
+
+
+/*轮播图2  studio*/
+
+.stuDioBox {
+    width: 966px;
+    height: 486px;
+    background: white;
+    margin: 0 auto;
+}
+
+.stuDioTop {
+    width: 966px;
+    height: 395px;
+    /* background: skyblue; */
+    padding-left: 20px;
+    padding-top: 16px;
+}
+
+.stuDioTop .stuDioTopShow {
+    width: 920px;
+    /* height: 379px; */
+    background: orange;
+    position: relative;
+}
+
+.stuDioTop .imgBox {
+    width: 920px;
+    height: 379px;
+    overflow: hidden;
+}
+
+.stuDioTop .stuDioTopShow img {
+    width: 920px;
+    height: 379px;
+    /* position: absolute; */
+    /* display: block; */
+    float: left;
+}
+
+
+/* 4小图 */
+
+.stuDioBox .stuDioBot {
+    width: 966px;
+    height: 91px;
+    padding-left: 20px;
+    /* background: green; */
+}
+
+.stuDioBox .stuDioBot .stuDioBotTxt {
+    width: 207px;
+    height: 91px;
+    /* background: yellowgreen; */
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotTxt a {
+    font-size: 22px;
+    color: #414141;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd {
+    width: 421px;
+    height: 91px;
+    /* background: #007AFF; */
+    float: left;
+    padding-top: 40px;
+    padding-left: 14px;
+    position: relative;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .stuDioBotEndBox {
+    width: 400px;
+    height: 35px;
+    /* background: red; */
+    border-bottom: 1px dashed #414141;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd img {
+    display: block;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd a {
+    line-height: 35px;
+    color: #414141;
+    font-size: 12px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox1 {
+    width: 100px;
+    height: 100px;
+    background: #deddd9;
+    position: absolute;
+    left: 152px;
+    bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox1 .Photo1 {
+    width: 90px;
+    height: 90px;
+    background: indianred;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox2 {
+    width: 100px;
+    height: 100px;
+    background: #deddd9;
+    position: absolute;
+    left: 268px;
+    bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox2 .Photo2 {
+    width: 90px;
+    height: 90px;
+    background: indianred;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox3 {
+    width: 100px;
+    height: 100px;
+    background: #deddd9;
+    position: absolute;
+    left: 383px;
+    bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox3 .Photo3 {
+    width: 90px;
+    height: 90px;
+    background: indianred;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox4 {
+    width: 100px;
+    height: 100px;
+    background: #deddd9;
+    position: absolute;
+    left: 498px;
+    bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox4 .Photo4 {
+    width: 90px;
+    height: 90px;
+    background: indianred;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox5 {
+    width: 100px;
+    height: 100px;
+    background: #deddd9;
+    position: absolute;
+    left: 613px;
+    bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.stuDioBox .stuDioBot .stuDioBotEnd .PhotoBox5 .Photo5 {
+    width: 90px;
+    height: 90px;
+    background: indianred;
+}
+
+
+/* <!-- 最新上架 New Products--> */
+
+.NewProductsBox {
+    width: 966px;
+    height: 660px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.NewProductsBox .ProductsBoxTop {
+    width: 966px;
+    height: 40px;
+    /* background: red; */
+}
+
+.NewProductsBox .ProductsBoxTop img {
+    width: 100%;
+}
+
+.NewProductsBox .ProductsBoxCen {
+    width: 966px;
+    height: 60px;
+    /* background: skyblue; */
+}
+
+.NewProductsBox .ProductsBoxCen .pBc_T {
+    width: 966px;
+    height: 40px;
+    /* background: orange; */
+    text-align: center;
+}
+
+.NewProductsBox .ProductsBoxCen .pBc_T a {
+    font-size: 16px;
+    line-height: 40px;
+    color: #69736b;
+    font-weight: 900;
+}
+
+.NewProductsBox .ProductsBoxCen .pBc_B {
+    width: 966px;
+    height: 20px;
+    /* background: dodgerblue; */
+    text-align: center;
+    line-height: 18px;
+    position: relative;
+}
+
+.NewProductsBox .ProductsBoxCen .pBc_B span {
+    font-size: 12px;
+    line-height: 12px;
+    color: #69736b;
+    font-weight: 900;
+}
+
+.NewProductsBox .ProductsBoxCen .pBc_B a {
+    font-size: 12px;
+    line-height: 12px;
+    color: #69736b;
+    font-weight: 900;
+    right: 31px;
+    position: absolute;
+    top: 3px;
+}
+
+.NewProductsBox .ProductsBoxBot {
+    width: 966px;
+    height: 560px;
+    /* background: yellowgreen; */
+    padding-top: 31px;
+}
+
+
+/* JS调用内容 8个图片 */
+
+.NewProductsBox .ProductsBoxBot .pbb_box {
+    width: 200px;
+    height: 250px;
+    /* background: red; */
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 33px;
+}
+
+.NewProductsBox .ProductsBoxBot .a1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.NewProductsBox .ProductsBoxBot img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.NewProductsBox .ProductsBoxBot .pbb_box .pbb_box_txt {
+    width: 200px;
+    height: 50px;
+    /* background: gray; */
+    text-align: center;
+}
+
+.NewProductsBox .ProductsBoxBot .pbb_box .pbb_box_txt a {
+    font-size: 14px;
+    color: #333331;
+    font-weight: 900;
+    display: block;
+}
+
+.NewProductsBox .ProductsBoxBot .pbb_box .pbb_box_txt span {
+    font-size: 14px;
+    color: #ff6600;
+}
+
+
+/* 底部 */
+
+.boTTom {
+    width: 966px;
+    height: 414px;
+    background: white;
+    margin: 0 auto;
+    margin-top: -30px;
+    clear: both;
+}
+
+.boTTom .boTTomTop {
+    width: 966px;
+    height: 250px;
+    /* background: orange; */
+    /* margin-top: -30px; */
+}
+
+.boTTom .boTTomTop .boTTomTopLogin {
+    width: 217px;
+    height: 250px;
+    /* background: #007AFF; */
+    float: left;
+    padding-left: 15px;
+    padding-top: 68px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl {
+    width: 421px;
+    height: 250px;
+    /* background: red; */
+    float: left;
+    /* padding-left: 12px; */
+    padding-top: 75px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul {
+    float: left;
+    margin-left: 24px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul li a {
+    color: #7f7f7f;
+    font-size: 12px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul span {
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+
+/* 电话 */
+
+.boTTom .boTTomTop .call {
+    width: 328px;
+    height: 250px;
+    /* background: greenyellow; */
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.boTTom .boTTomTop .call h4 {
+    color: #744e1d;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.boTTom .boTTomTop .call span {
+    color: #744e1d;
+    /* font-weight: 900; */
+    display: block;
+    line-height: 25px;
+    font-size: 16px
+}
+
+.boTTom .bottomBot {
+    width: 966px;
+    height: 164px;
+    /* background: darkred; */
+}
+
+.boTTom .bottomBot .bottomBotUl {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.boTTom .bottomBot .bottomBotUl li {
+    color: #7f7f7f;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.boTTom .bottomBot .bottomBotUl li a {
+    margin-left: 24px;
+    color: #7f7f7f;
+    font-size: 12px;
+}
+
+.boTTom .bottomBot .bottomBotUl li a:hover {
+    text-decoration: underline;
+    color: orange;
+}

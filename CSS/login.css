@@ -1,0 +1,312 @@
+.banner {
+    width: 100%;
+    height: 180px;
+    background: url(../img/BBBGG.jpg) repeat;
+}
+
+.banner .bannerCen {
+    width: 966px;
+    height: 166px;
+    /* background: blue; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .bannerCen img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -654px;
+    /* width: 100%; */
+}
+
+
+/* 内容 */
+
+.centre {
+    width: 905px;
+    height: 507px;
+    /* background: skyblue; */
+    margin: 0 auto;
+}
+
+.centre .centre_left {
+    width: 467px;
+    height: 507px;
+    /* background: #9ACD32; */
+    padding-left: 137px;
+    float: left;
+}
+
+.centre .centre_left img {
+    display: block;
+    width: 330px;
+    height: 465px;
+}
+
+.centre .centre_right {
+    width: 438px;
+    height: 507px;
+    float: right;
+    /* background: #FFA500; */
+    padding-left: 50px;
+    padding-top: 30px
+}
+
+.centre .centre_right .formBox {
+    width: 380px;
+    height: 448px;
+    background: #fcfaf4;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.form-loginTop {
+    width: 378px;
+    height: 46px;
+    /* background: blue; */
+    border-bottom: 1px solid gray;
+    text-align: center;
+    line-height: 60px;
+}
+
+.form-loginTop p {
+    font-size: 16px;
+}
+
+
+/* 用户名和密码 */
+
+.form-user {
+    width: 378px;
+    height: 120px;
+    /* background: skyblue; */
+    padding: 17px 37px 0 37px;
+}
+
+.form-user input {
+    height: 26px;
+}
+
+.form-user label {
+    font-size: 12px;
+    color: #333333;
+}
+
+
+/* 验证码盒子 */
+
+.form-yzm {
+    width: 378px;
+    height: 60px;
+    /* background: #9ACD32; */
+    padding-left: 37px;
+}
+
+.form-yzm input {
+    height: 26px;
+    width: 101px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.form-yzm label {
+    font-size: 12px;
+    color: #333333;
+}
+
+.form-yzm .yzmBox {
+    width: 120px;
+    height: 60px;
+    float: left;
+}
+
+
+/* 随机验证码框 */
+
+.form-yzm .yzmRand {
+    width: 90px;
+    height: 60px;
+    float: left;
+    padding-top: 24px;
+}
+
+.form-yzm .yzmRand span {
+    display: block;
+    width: 70px;
+    height: 25px;
+    border: 1px solid gray;
+    /* background: skyblue; */
+    text-align: center;
+    line-height: 25px;
+}
+
+.form-yzm .yzmHuan {
+    width: 90px;
+    height: 60px;
+    float: left;
+}
+
+.form-yzm .yzmHuan a {
+    font-size: 12px;
+    line-height: 68px;
+    color: #d08510;
+}
+
+
+/* 登录按钮 */
+
+.form-deng {
+    width: 378px;
+    height: 80px;
+    /* background: deepskyblue; */
+    padding-left: 37px;
+    position: relative;
+}
+
+.form-deng a {
+    width: 90px;
+    height: 30px;
+    background: #d08510;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 150px;
+    bottom: 14px;
+    color: white;
+}
+
+.form-bot {
+    width: 378px;
+    height: 140px;
+    /* background: red; */
+    padding-left: 37px;
+    padding-top: 10px;
+}
+
+.form-bot .p1 {
+    margin-top: 5px;
+}
+
+.form-bot .p2 {
+    margin-top: 30px;
+}
+
+.form-bot a {
+    color: #d08510;
+    font-size: 12px;
+}
+
+
+/* 底部 */
+
+.boTTom {
+    width: 966px;
+    height: 414px;
+    background: white;
+    margin: 0 auto;
+    margin-top: -30px;
+    clear: both;
+}
+
+.boTTom .boTTomTop {
+    width: 966px;
+    height: 250px;
+    /* background: orange; */
+    /* margin-top: -30px; */
+}
+
+.boTTom .boTTomTop .boTTomTopLogin {
+    width: 217px;
+    height: 250px;
+    /* background: #007AFF; */
+    float: left;
+    padding-left: 15px;
+    padding-top: 68px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl {
+    width: 421px;
+    height: 250px;
+    /* background: red; */
+    float: left;
+    /* padding-left: 12px; */
+    padding-top: 75px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul {
+    float: left;
+    margin-left: 24px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul li a {
+    color: #7f7f7f;
+    font-size: 12px;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.boTTom .boTTomTop .boTTomTopUl ul span {
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+
+/* 电话 */
+
+.boTTom .boTTomTop .call {
+    width: 328px;
+    height: 250px;
+    /* background: greenyellow; */
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.boTTom .boTTomTop .call h4 {
+    color: #744e1d;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.boTTom .boTTomTop .call span {
+    color: #744e1d;
+    /* font-weight: 900; */
+    display: block;
+    line-height: 25px;
+    font-size: 16px
+}
+
+.boTTom .bottomBot {
+    width: 966px;
+    height: 164px;
+    /* background: darkred; */
+}
+
+.boTTom .bottomBot .bottomBotUl {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.boTTom .bottomBot .bottomBotUl li {
+    color: #7f7f7f;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.boTTom .bottomBot .bottomBotUl li a {
+    margin-left: 24px;
+    color: #7f7f7f;
+    font-size: 12px;
+}
+
+.boTTom .bottomBot .bottomBotUl li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
